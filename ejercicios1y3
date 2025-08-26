@@ -1,0 +1,17 @@
+#ejercicio 1
+edad = int(input("ingrese su edad: "))
+if edad >= 18:
+    print("Es mayor de edad")
+else:
+    print("No es mayor de edad")
+
+#ejercicio 3
+
+while True:
+ numero = int(input("ingrese un número: "))
+
+ if numero % 2 == 0:
+    print("Ha ingresado un número par.")
+    break
+ else:
+    print("Por favor, ingrese un número par.")
