@@ -1,10 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="PYTHON_MODULE" version="4">
-  <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/.venv" />
-    </content>
-    <orderEntry type="jdk" jdkName="Python 3.12 (PythonProject3)" jdkType="Python SDK" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+git push -u origin ejerciciosAngy
+#ejercicio 7
+palabraUsuario = input("Ingresa una palabra: \n")
+
+#verificacion si cumple alguna condicion
+if palabraUsuario[-1].lower() in "aeiou":
+    print(palabraUsuario + "!")
+#Si no..
+else:
+    print(palabraUsuario)
+
+#ejercicio 8
+
+#solicito el nombre
+nombreUsuario = input("Hola!, Ingresa tu nombre: \n")
+#menu de opciones
+menuUsuario = input("Ingresa el numero correspondiente a como lo quieres ver: \n1.Mayúsculas \n2.Minusculas \n3.Primera mayuscula, resto minuscula\n")
+
+#imprime segun la eleccion del usuario
+if menuUsuario == "1": print(nombreUsuario.upper())
+if menuUsuario == "2": print(nombreUsuario.lower())
+if menuUsuario == "3": print(nombreUsuario.title()
